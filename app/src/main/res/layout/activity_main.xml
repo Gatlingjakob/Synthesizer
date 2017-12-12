@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jakobhoy.synthesizer.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="65dp"
+        android:text="JakseSynth"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="233dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        >
+
+
+        <Button
+            android:id="@+id/csharp"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="C#"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+        <Button
+            android:id="@+id/dsharp"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="D#"
+            />
+
+        <Button
+            android:id="@+id/fsharp"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="1"
+            android:text="F#"
+            />
+
+        <Button
+            android:id="@+id/gsharp"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="G#"
+            />
+
+        <Button
+            android:id="@+id/asharp"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="A#"
+             />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="216dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
+        android:orientation="horizontal"
+        android:weightSum="7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        >
+
+
+        <Button
+            android:id="@+id/c"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="c"
+            />
+
+        <Button
+            android:id="@+id/d"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="d"
+            />
+
+        <Button
+            android:id="@+id/e"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="e"
+           />
+
+        <Button
+            android:id="@+id/f"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="f"
+           />
+
+        <Button
+            android:id="@+id/g"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="g"
+             />
+
+        <Button
+            android:id="@+id/a"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="a"
+             />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="b"
+             />
+
+        <Button
+            android:id="@+id/c2"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="c"
+             />
+
+
+    </LinearLayout>
+
+    <AbsoluteLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="361dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/timbre2"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_x="91dp"
+            android:layout_y="0dp"
+            android:text="timbre2" />
+
+        <Button
+            android:id="@+id/timbre4"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_x="271dp"
+            android:layout_y="0dp"
+            android:text="timbre4" />
+
+        <Button
+            android:id="@+id/timbre1"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="timbre1" />
+
+
+        <Button
+            android:id="@+id/timbre3"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_x="181dp"
+            android:layout_y="0dp"
+            android:text="timbre3" />
+
+    </AbsoluteLayout>
+
+
+</android.support.constraint.ConstraintLayout>
